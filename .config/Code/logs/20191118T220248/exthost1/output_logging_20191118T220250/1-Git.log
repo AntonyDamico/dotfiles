@@ -1,0 +1,19 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tonio/dev/php/budgetApp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse router
+> git rev-parse --symbolic-full-name router@{u}
+fatal: no upstream configured for branch 'router'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :core/bootstrap.php
+> git check-ignore -v -z --stdin
+> git show :core/Container.php
+> git show :core/bootstrap.php
+> git show :app/routes.php
+> git show :core/Router.php

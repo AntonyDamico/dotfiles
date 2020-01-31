@@ -1,0 +1,26 @@
+2 + 2;
+2-2
+App\Project::all()
+App\Project::first()
+$project = new App\Project;
+$project->title = 'First Project'
+$project->description = 'Lorem ipsum no se lo demas'
+$project
+$project->save();
+App\Project::all()
+App\Project::first()
+App\Project::first()->description()
+App\Project::first()->description
+App\Project::all()
+$project = new App\Project
+$project->title = 'Second Project'
+$project->description = 'Another lorem ipsum ja'
+$project->save;
+$project->save();
+App\Project::all()
+App\Projects::all()
+App\Project::all()
+App\Project::all()[0[
+App\Project::all()[0]
+App\Project::all()[1]->title
+App\Project::all()->map->title

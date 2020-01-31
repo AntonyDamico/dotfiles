@@ -1,0 +1,28 @@
+{
+    "explorer.openEditors.visible": 0,
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.visible": false,
+    // "workbench.editor.showTabs": false,
+    "workbench.statusBar.visible": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.menuBarVisibility": "toggle",
+    "glassit.alpha": 50,
+    "breadcrumbs.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "debug.node.autoAttach": "on",
+    "window.zoomLevel": 0.5,
+    // "breadcrumbs.enabled": true
+}

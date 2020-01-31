@@ -1,0 +1,167 @@
+00:00:00.001222 main     VirtualBox XPCOM Server 6.0.10 r132055 linux.amd64 (Jul 16 2019 13:49:20) release log
+00:00:00.001225 main     Log opened 2019-09-08T11:25:53.461053000Z
+00:00:00.001225 main     Build Type: release
+00:00:00.001228 main     OS Product: Linux
+00:00:00.001229 main     OS Release: 4.19.69-1-MANJARO
+00:00:00.001231 main     OS Version: #1 SMP PREEMPT Thu Aug 29 08:51:46 UTC 2019
+00:00:00.001251 main     DMI Product Name: 20L9S14T00
+00:00:00.001258 main     DMI Product Version: ThinkPad T580
+00:00:00.001288 main     Host RAM: 7707MB (7.5GB) total, 6480MB (6.3GB) available
+00:00:00.001292 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001292 main     Process ID: 11178
+00:00:00.001293 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003202 main     IPC socket path: /tmp/.vbox-tonio-ipc/ipcd
+00:00:00.111816 nspr-2   VirtualBox: object creation starts
+00:00:00.111968 nspr-2   Home directory: '/home/tonio/.config/VirtualBox'
+00:00:00.112394 nspr-2   Loading settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.159176 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.161204 nspr-2   NAT: resolv.conf: nameserver 188.26.216.1
+00:00:00.161236 nspr-2   NAT: resolv.conf: nameserver 188.26.217.1
+00:00:00.161246 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.161255 nspr-2   NAT: resolv.conf: too many nameserver lines, ignoring 2a0c:5a80:0:2::1
+00:00:00.161262 nspr-2   NAT: resolv.conf: too many nameserver lines, ignoring 2a0c:5a84:0:2::1
+00:00:00.161269 nspr-2   NAT: resolv.conf: too many nameserver lines, ignoring fe80::1%wlp4s0
+00:00:00.161290 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.161321 nspr-2   HostDnsMonitor: old information
+00:00:00.161328 nspr-2     no server entries
+00:00:00.161335 nspr-2     no domain set
+00:00:00.161341 nspr-2     no search string entries
+00:00:00.161348 nspr-2   HostDnsMonitor: new information
+00:00:00.161354 nspr-2     server 1: 188.26.216.1
+00:00:00.161362 nspr-2     server 2: 188.26.217.1
+00:00:00.161368 nspr-2     server 3: 192.168.1.1
+00:00:00.161375 nspr-2     no domain set
+00:00:00.161381 nspr-2     no search string entries
+00:00:00.204366 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.206120 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.223640 nspr-2   Loading settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:00.225395 nspr-2   VirtualBox: object created
+00:00:00.900812 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.995613 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.142036 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.143467 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.203393 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.207955 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.241284 nspr-4   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.256268 nspr-4   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.491369 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.493895 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.700649 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.701452 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.701728 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:02.736418 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.737138 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.756926 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:02.796259 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:02.877550 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.936968 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.938463 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:02.947098 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:02.981382 nspr-7   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:03.836455 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:03.839835 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:14.710829 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:14.759334 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:14.760748 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:15.029702 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:15.167969 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:15.169602 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:15.295248 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:15.327232 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:15.359382 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+00:00:15.469727 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:15.472033 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:02:53.282635 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:02:53.354755 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:02:53.411174 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:02:53.623535 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:02:53.624817 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:07:29.874440 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:07:30.005657 nspr-7   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:07:30.068203 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:07:30.293375 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:07:30.296159 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:25:38.541656 nspr-7   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:38.644349 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:38.737230 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:38.889803 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:25:38.891162 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:25:55.399499 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:55.533386 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:55.620570 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+01:25:55.823908 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+01:25:55.825460 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+02:12:29.525076 nspr-8   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:29.591576 nspr-7   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:29.673445 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:29.837024 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+02:12:29.838579 nspr-11  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+02:12:30.701561 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:30.850529 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:30.907135 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+02:12:31.099886 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+02:12:31.101345 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:08:11.244108 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+03:08:11.393217 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+03:08:11.609687 nspr-11  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:08:11.611919 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:08:11.863972 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:08:11.867492 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:40.711913 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:40.716208 nspr-10  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:40.949133 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:40.950554 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.173958 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.174807 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.175126 nspr-11  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+03:24:41.314748 nspr-9   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.317674 nspr-8   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.377723 nspr-10  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:24:41.481172 nspr-11  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:24:41.612538 nspr-7   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.711181 nspr-9   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:24:41.721326 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.725011 nspr-11  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:41.754159 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:24:42.779922 nspr-11  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:24:42.782921 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+03:31:41.707237 nspr-6   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+03:31:41.722064 nspr-4   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+03:31:41.762538 nspr-3   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+03:31:41.771571 nspr-5   Saving settings file "/home/tonio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+04:16:23.773576 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+04:16:23.843875 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+04:16:23.884716 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+04:16:56.476672 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+04:16:56.596331 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+04:16:56.625467 nspr-7   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:20.775537 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:20.826946 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:20.869955 nspr-6   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:38.621124 nspr-2   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:38.675825 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:02:38.702160 nspr-5   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:03:16.343000 nspr-11  Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:25.762682 nspr-7   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:25.899599 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:25.946818 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:44.297488 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:44.455785 nspr-10  Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:44.503145 nspr-8   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:51.813534 nspr-10  Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:51.884155 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:11:51.926493 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:12:06.947174 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:12:06.996483 nspr-10  Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:12:07.038538 nspr-4   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:48.370041 nspr-8   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:48.428794 nspr-8   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:48.468187 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:55.753963 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:57.993763 nspr-9   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:14:58.116926 nspr-3   Saving settings file "/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander.vbox" with version "1.16-linux"
+05:15:03.671206 main     VirtualBox: object deletion starts
+05:15:03.734570 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/tonio/VirtualBox VMs/EOI_Santander/EOI_Santander-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:15:04.006094 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+05:15:08.784032 main     {00007fea64018450} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+05:15:08.848103 main     VirtualBox: object deleted

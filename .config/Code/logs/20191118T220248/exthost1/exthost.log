@@ -1,0 +1,26 @@
+[2019-11-18 22:02:50.252] [exthost] [info] extension host started
+[2019-11-18 22:02:50.317] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-11-18 22:02:50.317] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-11-18 22:02:50.332] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-11-18 22:02:50.332] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tonio/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension
+[2019-11-18 22:02:50.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-11-18 22:02:50.387] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.387] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-11-18 22:02:50.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.437] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-11-18 22:02:50.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.539] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-11-18 22:02:50.543] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.543] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tonio/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-11-18 22:02:50.573] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.573] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tonio/.vscode/extensions/pkief.material-icon-theme-3.9.1/dist/extension
+[2019-11-18 22:02:50.589] [exthost] [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tonio/.vscode/extensions/s-nlf-fh.glassit-0.1.5/extension
+[2019-11-18 22:02:50.633] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-11-18 22:02:50.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tonio/.vscode/extensions/vscodevim.vim-1.11.3/out/extension
+[2019-11-18 22:02:50.871] [exthost] [info] eager extensions activated
+[2019-11-18 22:02:50.925] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onCommand:extension.node-debug.startAutoAttach"}
+[2019-11-18 22:02:50.925] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2019-11-18 22:02:50.937] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onCommand:extension.node-debug.startAutoAttach"}
+[2019-11-18 22:02:50.937] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.node-debug/dist/extension.js

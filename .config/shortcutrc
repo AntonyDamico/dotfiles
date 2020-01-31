@@ -1,0 +1,51 @@
+# vim: filetype=sh
+alias h="cd ~/ && ls -a" \
+d="cd ~/Documents && ls -a" \
+D="cd ~/Downloads && ls -a" \
+m="cd ~/Music && ls -a" \
+pp="cd ~/Pictures && ls -a" \
+vv="cd ~/Videos && ls -a" \
+cf="cd ~/.config && ls -a" \
+sc="cd ~/.local/bin && ls -a" \
+mn="cd /mnt && ls -a" \
+bf="$EDITOR ~/.config/bmfiles" \
+bd="$EDITOR ~/.config/bmdirs" \
+cfb="$EDITOR ~/.bashrc" \
+cfa="$EDITOR ~/.config/aliasrc" \
+cfz="$EDITOR ~/.zshrc" \
+cfv="$EDITOR ~/.config/nvim/init.vim" \
+cfi="$EDITOR ~/.config/i3/config" \
+cfm="$EDITOR ~/.config/mutt/muttrc" \
+eb="$EDITOR ~/Documents/LaTeX/uni.bib" \
+cv="$EDITOR ~/Documents/LaTeX/cv.tex" \
+cfd="$EDITOR ~/.Xdefaults" \
+cfu="$EDITOR ~/.config/newsboat/urls" \
+cfn="$EDITOR ~/.config/newsboat/config" \
+cfmb="$EDITOR ~/.config/ncmpcpp/bindings" \
+cfmc="$EDITOR ~/.config/ncmpcpp/config" \
+er="$EDITOR ~/Documents/referbib" \
+cfB="$EDITOR ~/.config/i3blocks/config" \
+cfk="$EDITOR ~/.config/sxhkd/sxhkdrc" \
+lla="ls -la" \
+phpserver="php -S localhost:8000" \
+rtv="rtv --enable-media" \
+intellij="intellij-idea-ultimate-edition" \
+chmodx="chmod +x $1" \
+
+cdl() {
+	cd "$1"
+	ls
+}
+
+mkcd () {
+	mkdir "$1"
+	cd "$1"
+} \
+
+cpfile () {
+	filename=$(basename -- "$1")
+	extension="${filename##*.}"
+	filename="${filename%.*}"
+	newname="$filename"-$(date -d @$(stat -c '%Y' "$1") "+%y%m%d")."$extension"
+	cp "$1" "$newname"
+}

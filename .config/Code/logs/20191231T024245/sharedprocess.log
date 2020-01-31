@@ -1,0 +1,14 @@
+[2019-12-31 02:42:48.657] [sharedprocess] [info] main {"machineId":"1a7c6d7faa66620a9ffd17bcf8a95e19f4ee1f0dc417f25fef9e3f918dd51e1d"}
+[2019-12-31 02:42:52.047] [sharedprocess] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2019-12-31 02:42:52.049] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-12-31 02:43:28.662] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-12-31 02:44:21.550] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/f68dd6d0-c6f6-46f0-9b3c-d5da383ea9ae
+[2019-12-31 02:44:23.318] [sharedprocess] [info] Extracted extension to /home/tonio/.vscode/extensions/.vscodevim.vim-1.12.4: vscodevim.vim
+[2019-12-31 02:44:23.318] [sharedprocess] [info] Renamed to /home/tonio/.vscode/extensions/vscodevim.vim-1.12.4
+[2019-12-31 02:44:23.321] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-12-31 02:44:23.332] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2019-12-31 02:45:04.364] [sharedprocess] [info] Downloaded extension: bmewburn.vscode-intelephense-client /tmp/0c8fc002-72ee-4c44-8502-bd3262d93c7c
+[2019-12-31 02:45:05.242] [sharedprocess] [info] Extracted extension to /home/tonio/.vscode/extensions/.bmewburn.vscode-intelephense-client-1.3.6: bmewburn.vscode-intelephense-client
+[2019-12-31 02:45:05.242] [sharedprocess] [info] Renamed to /home/tonio/.vscode/extensions/bmewburn.vscode-intelephense-client-1.3.6
+[2019-12-31 02:45:05.243] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2019-12-31 02:45:05.250] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client

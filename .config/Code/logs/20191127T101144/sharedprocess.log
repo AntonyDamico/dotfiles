@@ -1,0 +1,8 @@
+[2019-11-27 10:11:47.936] [sharedprocess] [info] main {"machineId":"1a7c6d7faa66620a9ffd17bcf8a95e19f4ee1f0dc417f25fef9e3f918dd51e1d"}
+[2019-11-27 10:11:50.866] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2019-11-27 10:11:56.406] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /tmp/e13d29f4-bf6f-4c92-876d-a8bae7700333
+[2019-11-27 10:11:58.436] [sharedprocess] [info] Extracted extension to /home/tonio/.vscode/extensions/.pkief.material-icon-theme-3.9.2: pkief.material-icon-theme
+[2019-11-27 10:11:58.437] [sharedprocess] [info] Renamed to /home/tonio/.vscode/extensions/pkief.material-icon-theme-3.9.2
+[2019-11-27 10:11:58.438] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2019-11-27 10:11:58.454] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2019-11-27 10:12:27.943] [sharedprocess] [info] Starting to clean up unused language packs.
