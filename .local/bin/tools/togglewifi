@@ -1,0 +1,25 @@
+#!/bin/sh
+
+disconnect() {
+	ssid="$(nmcli d | awk -F " {2,}" '{if (NR==2) {print $4}}')"
+	ssid=${ssid::-1}
+	nmcli con down id "$ssid"
+	notify-send "Disconnected from $ssid"
+}
+
+connect(){
+	ssid=$(nmcli device wifi list | awk -F " {2,}" {'if (NR!=1) {print $2}'} | dmenu -i)
+	message=$(nmcli device wifi connect "$ssid")
+	[ $(echo "$message" | awk -F: '{print $1}') = "Error" ] \
+		&& notify-send "$message" \
+		|| notify-send "Connected to $ssid"
+}
+
+# checking if it's connected
+[ $(nmcli d | awk {'if (NR==2) {print $4}'}) = '--' ] && connstatus='off' || connstatus='on'
+
+if [ "$connstatus" = 'on' ]; then
+	disconnect
+else
+	connect
+fi

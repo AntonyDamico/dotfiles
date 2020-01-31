@@ -1,0 +1,15 @@
+#!/bin/bash
+# Converts m4a files to mp3
+#for i in *.m4a; do
+#	echo "Converting: ${i%.m4a}.mp3"
+#	ffmpeg -i "$i" "${i%.m4a}.mp3"
+#	rm "$i"
+#done
+
+for i in *."$1"; do
+	newname="${i%."$1"}."$2""
+	echo "Converting: "$newname""
+	ffmpeg -loglevel panic -i "$i" "$newname"
+	chmod +x "$newname"
+	rm "$i"
+done

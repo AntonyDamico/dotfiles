@@ -1,0 +1,36 @@
+#!/bin/sh
+
+cutName() {
+	cutted=$(echo "$1" | cut -c1-24)
+	echo "${cutted//&/&amp;}"
+}
+
+show() {
+	info=$(mpc status | awk 'NR==1')
+	artist=$(echo "$info" | cut -d'-' -f1)
+	cuttedArtist=$(cutName "$artist")
+	song=$(echo "$info" | cut -d'-' -f2)
+	cuttedSong=$(cutName "$song")
+	echo "$cuttedArtist" '-' "$cuttedSong"
+}
+
+filter(){
+	status=$(mpc status | awk 'NR==2 {print $1}')
+	if [ "$status" = '[playing]' ]; then
+		show
+	fi
+}
+
+case $BLOCK_BUTTON in
+    1) mpc status | filter && setsid "$TERMINAL" -e ncmpcpp & ;;  # right click, pause/unpause
+    2) mpc toggle | filter ;;  # right click, pause/unpause
+    3) mpc status | filter && pgrep -x dunst >/dev/null && notify-send "🎵 Music module" "\- Shows mpd song playing.
+- Italic when paused.
+- Left click opens ncmpcpp.
+- Middle click pauses.
+- Scroll changes track.";;  # right click, pause/unpause
+    4) mpc prev   | filter ;;  # scroll up, previous
+    5) mpc next   | filter ;;  # scroll down, next
+    *) mpc status | filter ;;
+esac; exit
+

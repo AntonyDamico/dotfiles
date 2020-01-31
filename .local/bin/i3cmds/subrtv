@@ -1,0 +1,3 @@
+#!/bin/bash
+sub=$(echo all | dmenu -i -p "Enter the subreddit")
+rtv --enable-media -s "$sub"

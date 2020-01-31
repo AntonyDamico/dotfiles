@@ -1,0 +1,21 @@
+#!/bin/sh
+# Displays screen brightness
+
+case $BLOCK_BUTTON in
+	1) xbacklight -dec 5;;
+	3) xbacklight -inc 5;;
+esac
+
+brightness=$(xbacklight -get | awk -F. '{print $1}')
+
+if [ "$brightness" -ge 75 ]; then
+	color="#ff0"
+elif [ "$brightness" -ge 50 ]; then
+	color="#990"
+else
+	color="#550"
+fi
+
+# printf "<span color='%s'></span>%5s%%" "$color" "$brightness"
+printf "<span color='%s'></span>%3s%%" "$color" "$brightness"
+
